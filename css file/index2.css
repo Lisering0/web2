@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#DFF1FF;
+}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	color: #00D0E3;
+}
+
+p{
+	text-align: center;
+	font-size: 25px;
+}
+
+a:link,a:visited{
+	text-decoration: none;
+	color:#15E9D6
+}
+a:hover{
+	color: #00B4F6;
+	text-decoration:none;
+}
+
+
+.main{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+/*	使用了 positioning 和 transform 属性来设置水平和垂直居中*/
+    transform: translate(-50%, -50%);
+	/*
+	padding: 80px 0;
+    text-align: center;
+	*/
+}
+
+
+
+
